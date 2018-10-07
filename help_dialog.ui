@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>help_Dialog</class>
+ <widget class="QDialog" name="help_Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>帮助</string>
+  </property>
+  <widget class="QTextBrowser" name="textBrowser">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>20</y>
+     <width>641</width>
+     <height>531</height>
+    </rect>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:7px; margin-bottom:7px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; color:#222222; background-color:#ffffff;&quot;&gt;游戏开始时，玩家可看到空白方块排成的矩形，方块数可由玩家自行选择。如果是第一次点开方块则不会踩到地雷。如果玩家点开没有地雷的方块，会有一个数字显现其上，这个数字代表着邻近方块有多少颗地雷（数字至多为8），玩家须运用逻辑来推断哪些方块含或不含地雷。&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:7px; margin-bottom:7px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; color:#222222; background-color:#ffffff;&quot;&gt;玩家可在推测有地雷的方块上点&lt;/span&gt;&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E6%BB%91%E9%BC%A0&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; text-decoration: underline; color:#0b0080;&quot;&gt;鼠标&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'sans-serif'; color:#222222;&quot;&gt;右键，以放置&lt;/span&gt;&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E6%97%97%E5%B9%9F&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; text-decoration: underline; color:#0b0080;&quot;&gt;旗帜&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'sans-serif'; color:#222222;&quot;&gt;来标明地雷的位置；若再次点击右键，旗帜会变成问号，代表不确定是否有地雷存在；第三次点击右键后会使问号消失，成为空白的方块。若在已标明旗帜的方块点击左键，方块不会有任何的变动，若是点击标明问号的方块，则与点击空白的方块相同。若在游戏进行中错置旗帜或问号，可用右键来改变方块状态。&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:7px; margin-bottom:7px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; color:#222222; background-color:#ffffff;&quot;&gt;在一数字上点击鼠标中键可显示邻近尚未标示的方块，这时如果已标示旗帜的数目与数字相同，那么未开的方块就会自动打开。然而，玩家若错置旗帜位置，此动作可能会打开真正藏有地雷的方块，导致游戏失败。不过这样的点击动作可加快游戏速度以便得到高分。&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
